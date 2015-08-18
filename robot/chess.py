@@ -41,5 +41,5 @@ def backwardssquiggle():
 squiggle()
 edge()
 turn(-1)
-squiggle()
+backwardssquiggle()
 
