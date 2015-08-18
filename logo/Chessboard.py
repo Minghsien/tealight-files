@@ -15,5 +15,5 @@ def Chessboard(size):
     turn(270)
     move(size/8)
     turn(270)
-Chessboard(100)
+Chessboard(64)
     
