@@ -8,7 +8,8 @@ from tealight.robot import (move,
 def edge():
   for i in range(32):
     move
-    turn(90)
+    
 
 for i in range(4):
   edge()
+  turn(90)
