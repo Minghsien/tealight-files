@@ -5,5 +5,10 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
+def edge()
+  for i in range(32):
+    move
+    turn(90)
 
-# Add your code here
+for i in range(4):
+  edge()
