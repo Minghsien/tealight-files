@@ -5,5 +5,7 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-if touch() == "fruit":
-  move()
+
+while True:
+  if touch() == "fruit":
+    move()
