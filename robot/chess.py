@@ -22,4 +22,4 @@ for i in range(4):
   edge()
   turn(-1)
   smalledge()
-  trun(-1)
+  turn(-1)
