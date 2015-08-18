@@ -9,7 +9,17 @@ def edge():
   for i in range(32):
     move()
     
+def smalledge():
+  for i in range(4):
+    move()
+    
 
 for i in range(4):
   edge()
   turn(1)
+  smalledge()
+  turn(1)
+  edge()
+  turn(-1)
+  smalledge()
+  trun(-1)
