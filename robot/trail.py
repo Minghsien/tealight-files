@@ -5,13 +5,16 @@ from tealight.robot import (move,
                             smell, 
                             left_side, 
                             right_side)
-
-while True:
-  if touch() == "fruit":
-    move()
-  elif right_side() == "fruit":
-    turn(1)
-  elif left_side() == "fruit":
-    turn(-1)
-  elif look() == "fruit":
-    move()
+def search():
+  while True:
+    if touch() == "fruit":
+      move()
+    elif right_side() == "fruit":
+      turn(1)
+    elif left_side() == "fruit":
+      turn(-1)
+    elif look() == "fruit":
+      move()
+    else:
+      turn(1)
+      return
