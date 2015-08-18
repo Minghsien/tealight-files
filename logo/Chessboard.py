@@ -5,13 +5,13 @@ def Chessboard(size):
     turn(90)
   turn(90)
   for i in range(3):
+    move(size/8)
+    turn(-90)
     move(size)
     turn(90)
     move(size/8)
     turn(90)
     move(size)
-    turn(270)
-    move(size/8)
-    turn(270)
+    turn(-90)
 Chessboard(128)
     
