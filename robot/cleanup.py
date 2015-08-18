@@ -13,7 +13,7 @@ while True:
     else:
       turn(-1)
   else:
-    turn(-1)
+    turn(1)
   
   
   
