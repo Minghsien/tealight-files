@@ -14,5 +14,6 @@ def search():
     elif look() == "fruit":
       move()
     else:
+      move()
       turn(1)
 search()
