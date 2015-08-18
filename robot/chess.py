@@ -12,4 +12,4 @@ def edge():
 
 for i in range(4):
   edge()
-  turn(90)
+  turn(1)
