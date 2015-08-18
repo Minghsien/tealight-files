@@ -11,8 +11,10 @@ def search():
       move()
     elif right_side() == "fruit":
       turn(1)
+      move()
     elif left_side() == "fruit":
       turn(-1)
+      move()
     elif look() == "fruit":
       move()
     else:
