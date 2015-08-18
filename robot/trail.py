@@ -15,5 +15,4 @@ def search():
       move()
     else:
       move()
-      turn(1)
 search()
