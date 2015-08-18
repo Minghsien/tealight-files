@@ -26,4 +26,6 @@ def squiggle():
   
 squiggle()
 edge()
+turn(-1)
+squiggle()
 
