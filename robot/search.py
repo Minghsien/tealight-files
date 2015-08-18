@@ -13,8 +13,6 @@ while True:
   
   if touch() == "wall":
     turn(2)
-  elif touch() == "fruit":
-    return
   elif left_side() == "fruit":
     turn(-1)
   elif right_side() == "fruit":
