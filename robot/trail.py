@@ -17,5 +17,4 @@ def search():
       move()
     else:
       turn(1)
-      return
 search()
