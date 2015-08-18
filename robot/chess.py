@@ -42,4 +42,5 @@ squiggle()
 edge()
 turn(-1)
 backwardssquiggle()
+edge()
 
