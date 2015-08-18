@@ -18,3 +18,4 @@ def search():
     else:
       turn(1)
       return
+search()
