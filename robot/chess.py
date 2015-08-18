@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 def edge():
   for i in range(32):
-    move
+    move()
     
 
 for i in range(4):
