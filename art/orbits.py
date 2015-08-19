@@ -10,7 +10,7 @@ ax = 0
 ay = 0
 
 power = 0.1
-gravity = 0.001
+gravity = 0.00
 friction = 0.002
 
 def handle_keydown(key):
