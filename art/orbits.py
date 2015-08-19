@@ -38,8 +38,10 @@ def handle_keyup(key):
 def handle_frame():
   global x,y,vx,vy,ax,ay
   ay+=gravity
-  vx -= friction
-  vy -= friction
+  if vx > 0:
+    vx -= friction
+  if vy > 0:
+    vy -= friction
   
   color("white")
   
