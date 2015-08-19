@@ -18,10 +18,10 @@ def handle_keydown(key):
 
   if key == "left":
     ax = -power
-    ay += gravity
+    ay = gravity
   elif key == "right":
     ax = power
-    ay += gravity
+    ay = gravity
   elif key == "up":
     ay = -power
     ay += gravity
