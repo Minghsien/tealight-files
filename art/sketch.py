@@ -5,7 +5,7 @@ lasty = 0
 
 color("blue")
 
-def handle_mousedown(x,y):
+def handle_mousedown(x,y,button):
   global lastx, lasty
   if button == "right":
     color("red")
