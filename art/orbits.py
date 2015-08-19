@@ -22,10 +22,10 @@ def handle_keydown(key):
   elif key == "right":
     ax = power
   elif key == "up":
-    ay = -power
+    ay = gravity-power
     
   elif key == "down":
-    ay = power
+    ay = gravity+power
     
 
 def handle_keyup(key):
