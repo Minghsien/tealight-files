@@ -9,6 +9,9 @@ def handle_mousedown(x,y,button):
   global lastx, lasty
   if button == "right":
     color("red")
+  if button == "left":
+    color("blue")
+    
   
   lastx = x
   lasty = y
