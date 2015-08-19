@@ -10,11 +10,10 @@ ax = 0
 ay = 0
 
 power = 0.3
-gravity = 0.1
+gravity = 0.001
 
 def handle_keydown(key):
   global ax, ay
-  ay += gravity
   
 
   if key == "left":
@@ -22,10 +21,10 @@ def handle_keydown(key):
   elif key == "right":
     ax = power
   elif key == "up":
-    ay = gravity-power
+    ay = -power
     
   elif key == "down":
-    ay = gravity+power
+    ay = power
     
 
 def handle_keyup(key):
@@ -38,7 +37,7 @@ def handle_keyup(key):
     
 def handle_frame():
   global x,y,vx,vy,ax,ay
-  
+  ay+=gravity
   color("white")
   
   spot(x,y,8)
