@@ -7,6 +7,7 @@ color("blue")
 
 def handle_mousedown(x,y):
   global lastx, lasty
+  color("red")
   
   lastx = x
   lasty = y
