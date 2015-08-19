@@ -10,7 +10,7 @@ ax = 0
 ay = 0
 
 power = 0.3
-gravity = 0.0765
+gravity = 0.07
 
 def handle_keydown(key):
   global ax, ay
@@ -23,11 +23,11 @@ def handle_keydown(key):
     ax = power
     ay += gravity
   elif key == "up":
-    ay = -power
-    ay += gravity
+    ay = -power + gravity
+    
   elif key == "down":
-    ay = power
-    ay += gravity
+    ay = power+gravity
+    
 
 def handle_keyup(key):
   global ax, ay
