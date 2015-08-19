@@ -9,8 +9,8 @@ vy = 0
 ax = 0
 ay = 0
 
-power = 0.3
-gravity = 0.001
+power = 0.1
+gravity = 0.005
 
 def handle_keydown(key):
   global ax, ay
