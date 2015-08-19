@@ -14,6 +14,7 @@ gravity = 0.01
 
 def handle_keydown(key):
   global ax, ay
+  ay += gravity
   
 
   if key == "left":
@@ -37,7 +38,6 @@ def handle_keyup(key):
     
 def handle_frame():
   global x,y,vx,vy,ax,ay
-  ay += gravity
   
   color("white")
   
