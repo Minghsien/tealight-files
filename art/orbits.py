@@ -11,20 +11,21 @@ ay = 0
 
 power = 0.1
 gravity = 0.001
+friction = 0.002
 
 def handle_keydown(key):
   global ax, ay
   
 
   if key == "left":
-    ax = -power
+    ax = friction-power
   elif key == "right":
-    ax = power
+    ax = power-friction
   elif key == "up":
-    ay = -power
+    ay = friction-power
     
   elif key == "down":
-    ay = power
+    ay = power-friction
     
 
 def handle_keyup(key):
