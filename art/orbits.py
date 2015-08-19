@@ -18,15 +18,14 @@ def handle_keydown(key):
   
 
   if key == "left":
-    ax = friction-power
+    ax = -power
   elif key == "right":
-    ax = power-friction
+    ax = power
   elif key == "up":
-    ay = friction-power
+    ay = -power
     
   elif key == "down":
-    ay = power-friction
-    
+    ay = power
 
 def handle_keyup(key):
   global ax, ay
@@ -39,6 +38,9 @@ def handle_keyup(key):
 def handle_frame():
   global x,y,vx,vy,ax,ay
   ay+=gravity
+  vx -= friction
+  vy -= friction
+  
   color("white")
   
   spot(x,y,8)
