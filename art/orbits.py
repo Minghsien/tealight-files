@@ -10,7 +10,7 @@ ax = 0
 ay = 0
 
 power = 0.1
-gravity = 0.005
+gravity = 0.001
 
 def handle_keydown(key):
   global ax, ay
