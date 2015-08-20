@@ -16,7 +16,8 @@ def rotation(car, theta):
    newcar = []
    for vertex in car:
       newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
-
+   car = newcar
+      
 def drawcar(car):
   temppoints = []
   counter = 0 
@@ -28,7 +29,7 @@ def drawcar(car):
       line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
-
+roatation(car, 90)
 drawcar(car)
       
       
