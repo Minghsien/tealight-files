@@ -20,7 +20,7 @@ def rotation(car, theta):
 def drawcar(car):
   temppoints = []
   for each in car:
-    temppoints.append(each[0],each[1],)
+    temppoints.append(each[0],each[1])
     counter += 1
     if counter == 2:
       line(each[0],each[1],each[2],each[3])
