@@ -40,7 +40,6 @@ def handle_keydown(key):
     drawcar(newcar,"white")
     newcar = rotation(car,-3)
     drawcar(newcar,"black")
-    drawcar(newcar)
       
       
   
