@@ -25,7 +25,7 @@ def drawcar(car):
     temppoints.append(each[1])
     counter += 1
     if counter == 2:
-      line(each[0],each[1],each[2],each[3])
+      line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
 
