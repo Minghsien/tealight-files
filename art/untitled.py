@@ -11,12 +11,12 @@ car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
 
-def rotation(car, theta):
+def rotation(shape, theta):
    theta = radians(theta)
-   newcar = []
-   for vertex in car:
+   newshape = []
+   for vertex in shape:
       newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
-   car = newcar
+   car = newshape
    return car
       
 def drawcar(points):
