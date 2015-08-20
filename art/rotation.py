@@ -39,7 +39,7 @@ drawcar(newcar,"blue")
 def handle_keydown(key):
   global newcar
   if key == "left":
-    background("paper.jpg")
+    rectangle(0,0,screen_width,screen_height)
       
     drawcar(newcar,"white")
       
