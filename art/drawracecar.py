@@ -7,11 +7,6 @@ carcentrex = screen_width/2
 
 
 def DrawCar(x,y,colour):
-  global vertice1, vertice2, vertice3, vertice4
-  vertice1 = [x-40,y-25,x-40,y+25]
-  vertice2 = [x-40, y-25]
-  #vertice3 = 
-  #vertice4 = 
   color(colour)
   line(x,y,x+50,y)
   line(x-40,y-25,x-40,y+25)
@@ -19,18 +14,39 @@ def DrawCar(x,y,colour):
   line(x-40,y+25,x,y)
   line(x-40,y+25,x+50,y)
   line(x-40,y-25,x+50,y)
-def handle_keydown(key):
-  if key == "left":
-    rotation += 3
-
-def rotation(x,y):
-  newx = (x - carcentre)*cos(rotation *pi / 180)
-  newy = (y - carcentrey)*cos(rotation * pi / 180)
   
+theta = 90
+def rotatedCar(x,y,colour):
+  color(colour)
+  line(x,y,cos(theta)*x+50-sin(theta)*y,x*sin(theta)+y*cos(theta))
+  line(cos(theta)*(x-40)-sin(theta)*(y-25),(x-40)*sin(theta)+(y-25)*cos(theta),(x-40)*cos(theta)-(y-25)*sin(theta),(x-40)*sin(theta)+(y+25)*cos(theta))
+  line((x-40),(y-25),x,y)
+  line((x-40),(y+25),x,y)
+  line((x-40),(y+25),(x+50),y)
+  line((x-40),(y-25),(x+50),y)
+
 def handle_frame():
-  colour = "white"
-  DrawCar(newx, newy, "red")
-DrawCar(carcentrex,carcentrey,carcolour)
+   
+  
+  
+  
+  
+  
+  
+  
+  
+#def handle_keydown(key):
+#  if key == "left":
+#    rotation += 3
+
+#def rotation(x,y):
+#  newx = (x - carcentre)*cos(rotation *pi / 180)
+#  newy = (y - carcentrey)*cos(rotation * pi / 180)
+  
+#def handle_frame():
+#  colour = "white"
+#  DrawCar(newx, newy, "red")
+#DrawCar(carcentrex,carcentrey,carcolour)
 #def handle_keydown(key):
 #  if key == "left":
 #    new
