@@ -4,7 +4,7 @@ carcolour = "red"
 carcentrey = screen_height/2
 carcentrex = screen_width/2
 
-def handle_frame():
+
 
 def DrawCar(x,y,colour):
   color(colour)
