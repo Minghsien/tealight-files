@@ -48,7 +48,7 @@ def handle_keydown(key):
   elif key == "right":
     moved = True
     
-    drawcar(newcar,"white")
+#    drawcar(newcar,"white")
     
     newcar = rotation(newcar, 10)
 #    drawcar(newcar,"blue")
