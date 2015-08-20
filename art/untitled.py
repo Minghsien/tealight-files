@@ -6,4 +6,4 @@ def rotation(car, theta):
    theta = math.radians(theta)
    newcar = []
    for vertex in car:
-      newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta))
+      newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
