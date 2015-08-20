@@ -21,7 +21,7 @@ def rotation(shape, theta):
    return newcar
       
 def drawcar(points,colour):
-  color = colour
+  color(colour)
   temppoints = []
   counter = 0 
   for each in points:
