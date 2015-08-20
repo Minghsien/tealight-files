@@ -35,19 +35,19 @@ def drawcar(points,colour):
 moved = False 
 newcar = rotation(car,0)
 drawcar(newcar,"blue")
-counter3 = 0
+
 def handle_frame():
   def handle_keydown(key):
-    global newcar,counter3
+    global newcar
     if key == "left":
-      moved = True
+      
       
       drawcar(newcar,"white")
       
       newcar = rotation(newcar, -10)
       drawcar(newcar,"blue")
     elif key == "right":
-      moved = True
+      
       
       drawcar(newcar,"white")
       
