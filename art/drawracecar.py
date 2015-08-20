@@ -15,11 +15,11 @@ def DrawCar(x,y,colour):
   line(x-40,y+25,x+50,y)
   line(x-40,y-25,x+50,y)
   
-def handle_keydown(key):
-  if key == "left":
-    new
+#def handle_keydown(key):
+#  if key == "left":
+#    new
   
-  if key == "right":
+#  if key == "right":
   
   
 #Drawcar(carcentrex)
