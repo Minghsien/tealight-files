@@ -1,1 +1,4 @@
-print "A new file!"
+from tealight import *
+
+carcentrex = screenheight/2
+line()
