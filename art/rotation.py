@@ -33,7 +33,7 @@ def drawcar(points,colour):
       temppoints =[]
       counter = 0
 newcar = rotation(car,0)
-drawcar(newcar)
+drawcar(newcar,"black")
 def handle_keydown(key):
   if key == "left":
     drawcar(newcar,"white")
