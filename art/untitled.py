@@ -4,6 +4,7 @@ carcolour = "red"
 y = screen_height/2
 x = screen_width/2
 
+counter = 0 
 
 
 car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
@@ -15,9 +16,9 @@ def rotation(car, theta):
    newcar = []
    for vertex in car:
       newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
-counter = 0 
-temppoints = []
+
 def drawcar(car):
+  temppoints = []
   for each in car:
     temppoints.append(each[0],each[1],)
     counter += 1
