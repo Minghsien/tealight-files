@@ -25,9 +25,9 @@ def rotatedCar(x,y,colour):
   line((x-40),(y+25),(x+50),y)
   line((x-40),(y-25),(x+50),y)
 
-def handle_frame():
-   
-  
+def rotation(x,y,theta):
+  newx = x*cos(theta)-y*sin(theta)
+  newy = x*sin(theta)+y*cos(theta) 
   
   
   
