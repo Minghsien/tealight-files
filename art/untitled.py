@@ -15,3 +15,18 @@ def rotation(car, theta):
    newcar = []
    for vertex in car:
       newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
+counter = 0 
+temppoints = []
+def drawcar(car):
+  for each in car:
+    temppoints.append(each[0],each[1],)
+    counter += 1
+    if counter == 2:
+      line(each[0],each[1],each[2],each[3])
+      temppoints =[]
+      counter = 0
+
+drawcar(car)
+      
+      
+  
