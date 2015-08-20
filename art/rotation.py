@@ -42,13 +42,13 @@ def handle_keydown(key):
     counter3 += -10
     drawcar(newcar,"white")
     
-    newcar = rotation(car, counter3)
+    newcar = rotation(newcar, counter3)
     drawcar(newcar,"blue")
   elif key == "right":
     counter3 += 10
     drawcar(newcar,"white")
     
-    newcar = rotation(car, counter3)
+    newcar = rotation(newcar, counter3)
     drawcar(newcar,"blue")
       
       
