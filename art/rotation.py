@@ -38,18 +38,18 @@ drawcar(newcar,"blue")
 counter3 = 0
 def handle_keydown(key):
   global newcar,counter3
-  while key == "left":
+  if key == "left":
     
     drawcar(newcar,"white")
     
     newcar = rotation(newcar, -10)
     drawcar(newcar,"blue")
-  while key == "right":
+  elif key == "right":
     
     drawcar(newcar,"white")
     
     newcar = rotation(newcar, 10)
     drawcar(newcar,"blue")
       
-      
-  
+def handle_frame():
+  drawcar(newcar,"white")
