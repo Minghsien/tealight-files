@@ -1,3 +1,5 @@
+from tealight.art import *
+
 colour = "red"
 theta = 90
 carcentrey = screen_height/2
