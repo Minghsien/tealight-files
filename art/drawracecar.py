@@ -1,4 +1,5 @@
 from tealight.art import *
+from math import * 
 carcolour = "red"
 carcentrey = screen_height/2
 carcentrex = screen_width/2
@@ -11,5 +12,5 @@ def DrawCar(x,y,colour):
   line(x-40,y+25,x+50,y)
   line(x-40,y-25,x+50,y)
   
-DrawCar(carcentrex,carcentrey,carcolour)
-  
+newx = (x1 - carcentrex)*cos(rotation * pi / 180)
+newy = (y1 - carcentrey)*cos(rotation * pi / 180)
