@@ -16,5 +16,9 @@ def rotatedCar(x,y,colour,theta):
 rotatedCar(carcentrex,carcentrey,colour,theta)
 
 
-def rotation(x,y):
-  pass
+def rotation(x,y,theta):
+  newx = x*cos(theta)-y*sin(theta)
+  newy = x*sin(theta)+y*cos(theta)
+  return newx, newy
+
+rotation(0,1,90)
