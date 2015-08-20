@@ -58,5 +58,3 @@ def handle_keydown(key):
   #elif moved == False:
   #  drawcar(newcar,"blue")
    
-def handle_frame():
-  background = "white"
