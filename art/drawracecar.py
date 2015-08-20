@@ -28,8 +28,21 @@ def rotatedCar(x,y,colour):
 def rotation(x,y,theta):
   newx = x*cos(theta)-y*sin(theta)
   newy = x*sin(theta)+y*cos(theta) 
+ 
   
   
+car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
+       ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
+       (x-40,y-25),(x+50,y)]
+def rotation2(shape, theta):
+   theta = math.radians(theta)
+   rotatedcar = []
+   for vertex in shape:
+      rotatedcar.append((vertex[0]*cos(theta)-
+      vertex[1]*sin(theta),vertex[0]*sin(theta)+
+      vertex[1]*cos(theta))
+                      
+    
   
   
   
