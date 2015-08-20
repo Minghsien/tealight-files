@@ -12,5 +12,5 @@ def DrawCar(x,y,colour):
   line(x-40,y+25,x+50,y)
   line(x-40,y-25,x+50,y)
   
-newx = (x1 - carcentrex)*cos(rotation * pi / 180)
-newy = (y1 - carcentrey)*cos(rotation * pi / 180)
+#newx = (x1 - carcentrex)*cos(rotation * pi / 180)
+#newy = (y1 - carcentrey)*cos(rotation * pi / 180)
