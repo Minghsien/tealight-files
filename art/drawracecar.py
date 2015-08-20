@@ -34,14 +34,15 @@ def rotation(x,y,theta):
 car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
-def rotation2(shape, theta):
+
+def rotation2(car, theta):
    theta = math.radians(theta)
-   rotatedcar = []
-   for vertex in shape:
-      rotatedcar.append((vertex[0]*cos(theta)-
+   newcar = []
+   for vertex in car:
+      newcar.append((vertex[0]*cos(theta)-
       vertex[1]*sin(theta),vertex[0]*sin(theta)+
       vertex[1]*cos(theta))
-   print(rotatedcar)
+   print(newcar)
                       
     
   
