@@ -1,5 +1,8 @@
 colour = "red"
 theta = 90
+carcentrey = screen_height/2
+carcentrex = screen_width/2
+
 
 
 def rotatedCar(x,y,colour,theta):
