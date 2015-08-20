@@ -7,6 +7,7 @@ carcentrex = screen_width/2
 
 
 def DrawCar(x,y,colour):
+  global#vertices
   color(colour)
   line(x,y,x+50,y)
   line(x-40,y-25,x-40,y+25)
