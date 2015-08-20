@@ -38,7 +38,7 @@ drawcar(newcar,"blue")
 counter3 = 0
 def handle_keydown(key):
   global newcar,counter3
-  if key == "left":
+  while key == "left":
     
     drawcar(newcar,"white")
     
