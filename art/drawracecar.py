@@ -41,6 +41,7 @@ def rotation2(shape, theta):
       rotatedcar.append((vertex[0]*cos(theta)-
       vertex[1]*sin(theta),vertex[0]*sin(theta)+
       vertex[1]*cos(theta))
+   return rotatedcar
                       
     
   
