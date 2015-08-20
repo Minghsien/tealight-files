@@ -1,4 +1,5 @@
 from tealight.art import *
+from math import sin,cos
 
 colour = "red"
 theta = 90
