@@ -33,7 +33,7 @@ def drawcar(points):
       temppoints =[]
       counter = 0
 rotation(car,180)
-drawcar(car)
+drawcar(newcar)
       
       
   
