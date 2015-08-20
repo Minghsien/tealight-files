@@ -2,7 +2,7 @@ car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
 
-def rotation2(car, theta):
+def rotation(car, theta):
    theta = math.radians(theta)
    newcar = []
    for vertex in car:
