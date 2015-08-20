@@ -9,7 +9,7 @@ car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
     
-  
+
 def rotation(shape, theta):
    theta = radians(theta)
    newshape = []
@@ -39,7 +39,7 @@ drawcar(newcar,"blue")
 def handle_keydown(key):
   global newcar
   if key == "left":
-    background ="white"
+    background("white.png")
       
     drawcar(newcar,"white")
       
