@@ -42,14 +42,14 @@ def handle_keydown(key):
     color("white")
     box(0,0,screen_width,screen_height)
       
-    drawcar(newcar,"white")
+    #drawcar(newcar,"white")
       
     newcar = rotation(newcar,-10)
     drawcar(newcar,"blue")
   elif key == "right":
     color("white")
     box(0,0,screen_width,screen_height)
-    drawcar(newcar,"white")
+    #drawcar(newcar,"white")
       
     newcar = rotation(newcar,10)
     drawcar(newcar,"blue")
