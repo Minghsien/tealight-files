@@ -5,12 +5,15 @@ y = screen_height/2
 x = screen_width/2
 
 
-
-
 car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
        ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
        (x-40,y-25),(x+50,y)]
-
+counter2 = 0
+for vertex in car:
+  vertex[0] = vertex[0]-x
+  vertex[1] = vertex[1]-y
+    
+  
 def rotation(shape, theta):
    theta = degrees(theta)
    newshape = []
