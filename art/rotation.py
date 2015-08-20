@@ -32,7 +32,7 @@ def drawcar(points,colour):
       line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
-moved = False 
+#moved = False 
 newcar = rotation(car,0)
 drawcar(newcar,"blue")
 
