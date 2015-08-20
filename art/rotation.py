@@ -32,19 +32,21 @@ def drawcar(points,colour):
       line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
-
+moved = False 
 newcar = rotation(car,0)
 drawcar(newcar,"blue")
 counter3 = 0
 def handle_keydown(key):
   global newcar,counter3
   if key == "left":
+    moved = True
     
     drawcar(newcar,"white")
     
     newcar = rotation(newcar, -10)
     drawcar(newcar,"blue")
   elif key == "right":
+    moved = True
     
     drawcar(newcar,"white")
     
@@ -52,4 +54,10 @@ def handle_keydown(key):
     drawcar(newcar,"blue")
       
 def handle_frame():
-  drawcar(newcar,"white")
+  if moved == True:
+    
+    drawcar(newcar,"white")
+  elif moved != True:
+    drawcar(newcar,"blue")
+   
+  
