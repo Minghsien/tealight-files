@@ -51,7 +51,7 @@ def handle_keydown(key):
     drawcar(newcar,"white")
     
     newcar = rotation(newcar, 10)
-    drawcar(newcar,"blue")
+#    drawcar(newcar,"blue")
       
 def handle_frame():
   if moved == True:
