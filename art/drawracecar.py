@@ -42,7 +42,7 @@ def rotation2(car, theta):
       newcar.append((vertex[0]*cos(theta)-
       vertex[1]*sin(theta),vertex[0]*sin(theta)+
       vertex[1]*cos(theta))
-   print(newcar)
+   print(str(newcar))
                       
     
   
