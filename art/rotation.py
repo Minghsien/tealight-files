@@ -39,16 +39,16 @@ counter3 = 0
 def handle_keydown(key):
   global newcar,counter3
   if key == "left":
-    counter3 += -10
+    
     drawcar(newcar,"white")
     
-    newcar = rotation(newcar, counter3)
+    newcar = rotation(newcar, -10)
     drawcar(newcar,"blue")
   elif key == "right":
-    counter3 += 10
+    
     drawcar(newcar,"white")
     
-    newcar = rotation(newcar, counter3)
+    newcar = rotation(newcar, 10)
     drawcar(newcar,"blue")
       
       
