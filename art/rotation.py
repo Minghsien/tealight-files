@@ -38,7 +38,7 @@ def handle_keydown(key):
   global newcar
   if key == "left":
     drawcar(newcar,"white")
-    newcar = rotation(car,-3)
+    newcar = rotation(car,-10)
     drawcar(newcar,"black")
       
       
