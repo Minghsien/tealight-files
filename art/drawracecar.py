@@ -10,8 +10,8 @@ def DrawCar(x,y,colour):
   global vertice1, vertice2, vertice3, vertice4
   vertice1 = [x-40,y-25,x-40,y+25]
   vertice2 = [x-40, y-25]
-  vertice3 = 
-  vertice4 = 
+  #vertice3 = 
+  #vertice4 = 
   color(colour)
   line(x,y,x+50,y)
   line(x-40,y-25,x-40,y+25)
