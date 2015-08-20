@@ -1,5 +1,5 @@
 from tealight.art import *
-from math import sin,cos
+from math import sin,cos,pi
 
 colour = "red"
 theta = 180
@@ -21,4 +21,4 @@ def rotation(x,y,theta):
   newy = x*sin(theta)+y*cos(theta)
   print(newx, newy)
 
-rotation(0,1,90)
+rotation(0,1,(pi/2))
