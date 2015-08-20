@@ -15,10 +15,7 @@ def rotation(shape, theta):
    newshape = []
    for vertex in shape:
       print(vertex[0],vertex[1])
-      newshape.append(((vertex[0]-x)*cos(theta)-(vertex[1]-y)*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
-      for i in newshape:
-        i[0] += x
-        i[1] += y
+      newshape.append((((vertex[0]-x)*cos(theta)-(vertex[1]-y)*sin(theta))+x,(vertex[0]*sin(theta)+vertex[1]*cos(theta)+y)))
    newcar = newshape
    print(newcar)
    return newcar
