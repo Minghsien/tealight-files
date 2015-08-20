@@ -35,12 +35,13 @@ def drawcar(points,colour):
 
 newcar = rotation(car,0)
 drawcar(newcar,"black")
-
+counter3 = 0
 def handle_keydown(key):
-  global newcar
+  global newcar,counter3
   if key == "left":
+    counter3 += 10
     drawcar(newcar,"white")
-    newcar = rotation(car,-10)
+    newcar = rotation(car, counter3)
     drawcar(newcar,"black")
       
       
