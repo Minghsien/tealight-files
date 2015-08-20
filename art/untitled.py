@@ -15,7 +15,6 @@ def rotation(shape, theta):
    theta = degrees(theta)
    newshape = []
    for vertex in shape:
-      print(vertex[0])
       newshape.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
    car = newshape
    print(car)
@@ -32,7 +31,7 @@ def drawcar(points):
       line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
-car = rotation(car,90)
+
 drawcar(car)
       
       
