@@ -31,7 +31,7 @@ def drawcar(points):
       line(temppoints[0],temppoints[1],temppoints[2],temppoints[3])
       temppoints =[]
       counter = 0
-newcar = rotation(car,-90)
+newcar = rotation(car,30)
 drawcar(newcar)
       
       
