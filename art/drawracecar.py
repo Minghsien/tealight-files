@@ -1,4 +1,4 @@
-from tealight import *
+from tealight.art import *
 
 carcentrey = screen_height/2
 carcentrex = screen_width/2
