@@ -15,7 +15,7 @@ def rotation(shape, theta):
    theta = radians(theta)
    newshape = []
    for vertex in shape:
-      newcar.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
+      newshape.append((vertex[0]*cos(theta)-vertex[1]*sin(theta),vertex[0]*sin(theta)+vertex[1]*cos(theta)))
    car = newshape
    return car
       
