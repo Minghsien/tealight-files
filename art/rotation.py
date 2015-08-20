@@ -57,7 +57,7 @@ def handle_frame():
   if moved == True:
     
     drawcar(newcar,"white")
-  elif moved != True:
+  elif moved == False:
     drawcar(newcar,"blue")
    
   
