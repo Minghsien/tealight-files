@@ -1,4 +1,11 @@
-from tealight.art import *
-color("red")
-vertice1 =[40,25,40,25]
-line(vertice1[0],vertice1[1],vertice1[2],vertice1[3],)
+car = [(x,y),(x+50,y),(x-40,y-25),(x-40,y+25),(x-40,y-25)
+       ,(x,y),(x-40,y+25),(x,y),(x-40,y+25),(x+50,y),
+       (x-40,y-25),(x+50,y)]
+
+def rotation2(car, theta):
+   theta = math.radians(theta)
+   newcar = []
+   for vertex in car:
+      newcar.append((vertex[0]*cos(theta)-
+      vertex[1]*sin(theta),vertex[0]*sin(theta)+
+      vertex[1]*cos(theta))
