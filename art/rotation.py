@@ -59,4 +59,4 @@ def handle_keydown(key):
   #  drawcar(newcar,"blue")
    
 def handle_frame():
-  handle_keydown()
+  background("white")
