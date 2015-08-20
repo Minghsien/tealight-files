@@ -20,7 +20,8 @@ def rotation(shape, theta):
    print(newcar)
    return newcar
       
-def drawcar(points):
+def drawcar(points,colour):
+  color = colour
   temppoints = []
   counter = 0 
   for each in points:
@@ -35,7 +36,9 @@ newcar = rotation(car,0)
 drawcar(newcar)
 def handle_keydown(key):
   if key == "left":
+    drawcar(newcar,"white")
     newcar = rotation(car,-3)
+    drawcar(newcar,"black")
     drawcar(newcar)
       
       
