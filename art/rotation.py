@@ -38,7 +38,7 @@ drawcar(newcar,"blue")
 
 def handle_keydown(key):
   global newcar
-  while key == "left":
+  if key == "left":
     color("white")
     box(0,0,screen_width,screen_height)
       
@@ -46,7 +46,7 @@ def handle_keydown(key):
       
     newcar = rotation(newcar,-10)
     drawcar(newcar,"blue")
-  while key == "right":
+  elif key == "right":
     color("white")
     box(0,0,screen_width,screen_height)
     #drawcar(newcar,"white")
