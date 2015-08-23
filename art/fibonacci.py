@@ -8,4 +8,4 @@ def fibsum():
     current += old
   print add
        
-  
+fibsum()  
