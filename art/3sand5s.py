@@ -6,3 +6,4 @@ def sumofmultiples(num,mult):
   print add
   
 sumofmultiples(10,3)
+sumofmultiples(10,5)
