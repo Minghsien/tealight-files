@@ -5,5 +5,5 @@ def sumofmultiples(num,mult):
       add+=i
   print add
   
-sumofmultiples(10,3)
-sumofmultiples(10,5)
+sumofmultiples(1000,3)+sumofmultiples(1000,5)
+
