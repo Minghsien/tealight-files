@@ -1,4 +1,4 @@
-#
+#prints the even terms of the fibonacci sequence up to a value
 def fibsum(num):
   add = 0
   prev = 1
