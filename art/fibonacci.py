@@ -4,7 +4,8 @@ def fibsum():
   temp = 0
   current = 1
   while current < 4000000:
-    add += current
+    if current % 2 == 0:
+      add += current
     temp = current
     current += prev
     prev = temp
