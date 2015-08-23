@@ -3,7 +3,7 @@ def sumofmultiples(num,mult):
   for i in range(num):
     if i % mult == 0:
       add+=i
-  print add
+  return add
   
 sumofmultiples(1000,3)+sumofmultiples(1000,5)
 
