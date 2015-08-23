@@ -1,7 +1,8 @@
 def PrimeFactors(num):
   factors = []
   n=2
-  while num % n ==0:
+  while num> 1:
+    num % n ==0:
     factors.append(n)
     num/=n
   n+=1
