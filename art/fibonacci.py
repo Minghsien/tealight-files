@@ -1,9 +1,10 @@
-def fibsum():
+#
+def fibsum(num):
   add = 0
   prev = 1
   temp = 0
   current = 1
-  while current < 4000000:
+  while current < num:
     if current % 2 == 0:
       add += current
     temp = current
@@ -12,4 +13,4 @@ def fibsum():
     
   print add
        
-fibsum()  
+fibsum(4000000)  
