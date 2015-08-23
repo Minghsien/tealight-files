@@ -6,7 +6,7 @@ def fibsum():
   while current < 4000000:
     add += current
     temp = current
-    current temp+prev
+    current =temp+prev
     prev = temp
     
   print add
