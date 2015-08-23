@@ -4,7 +4,7 @@ def PrimeFactors(num):
   while num % n ==0:
     factors.append(n)
     num/=n
-    n+=1
+  n+=1
   print factors
   
 PrimeFactors(13195)
