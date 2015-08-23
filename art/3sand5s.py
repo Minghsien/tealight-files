@@ -1,6 +1,6 @@
 def sumofmultiples(num,mult):
   add = 0
-  for i in range(1,num):
+  for i in range(0,num):
     if i % mult == 0:
       add+=i
   return add
