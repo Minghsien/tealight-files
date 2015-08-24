@@ -5,7 +5,5 @@ def palindromes():
       num = i*j
       print(num)
 
-      
-  print(top)
 
 palindromes()
