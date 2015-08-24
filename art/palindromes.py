@@ -4,9 +4,7 @@ def palindromes():
     for j in range(10,99):
       num = i*j
       print(num)
-      if num == num[::-1]:
-        if num > top:
-          top = num
+
       
   print(top)
 
