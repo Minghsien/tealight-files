@@ -6,16 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 while True:
-  move()
-  if right_side() == "fruit":
-    turn(1)
-  if right_side() != "fruit":
-    if touch() == "fruit":
-      move()
-    else:
-      turn(-1)
-  else:
-    turn(1)
+  turn()
   
   
   
