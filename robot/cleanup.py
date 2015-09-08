@@ -6,7 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 while True:
-  turn()
+  turn(1)
   
   
   
