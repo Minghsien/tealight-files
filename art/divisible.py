@@ -2,9 +2,10 @@ def isdivisable(num,n):
   m=1
   while m< n:
     if num % m == 0:
+      print('y')
       m+=1
   if m == n:
     return True
    
     
-isdivisable(2520,20)
+isdivisable(2520,10)
