@@ -11,4 +11,3 @@ while isdivisable(num, 20) == False:
   num+=1
   
 print(num)
-isdivisable(2520,10)
