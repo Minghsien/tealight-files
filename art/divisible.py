@@ -5,4 +5,6 @@ def isdivisable(num,n):
       m+=1
   if m == n:
     return True
+   
     
+isdivisable(2520,20)
