@@ -8,5 +8,5 @@ def PrimeFactors(num):
     n+=1
   print factors
   
-PrimeFactors(600851475143)
+
 PrimeFactors(987865343212)
