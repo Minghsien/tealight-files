@@ -9,4 +9,4 @@ def PrimeFactors(num):
   print factors
   
 
-PrimeFactors(1000000)
+PrimeFactors(1200000000)
