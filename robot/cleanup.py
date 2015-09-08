@@ -11,6 +11,8 @@ while True:
   else:
     if left_side() == "fruit":
       turn(-1)
+      move()
+      turn(1)
   
   
   
