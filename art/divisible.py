@@ -10,5 +10,6 @@ def isdivisable(num,n):
 num = 1
 while isdivisable(num, 20) == False:
   num += 1
+  print(num)
   
 print(num)
