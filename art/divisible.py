@@ -5,6 +5,14 @@ def isdivisable(num,n):
       print('y')
       m+=1
   if m == n:
-    print('True')
+    return True
 
-isdivisable(2520,10)
+  
+def numbercheck(num, n):
+  while isdivisable(num, n) == False:
+    num+=1
+  print(num)
+  
+  
+numbercheck(2520,20)
+
