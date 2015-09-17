@@ -1,6 +1,6 @@
 def isdivisable(num,n):
   m=1
-  while m<= n:
+  while m< n:
     if num % m == 0:
       print('y')
       m+=1
