@@ -1,7 +1,7 @@
 import math
 
 squares = []
-for i in range(1,1000):
+for i in range(100,1000):
   squares.append(i**2)
 def triples():
   triples = []
