@@ -16,5 +16,5 @@ def numbercheck(num, n):
   print(num)
   
   
-numbercheck(0,10)
+numbercheck(1,10)
 
