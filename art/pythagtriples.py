@@ -15,7 +15,7 @@ def triples():
   print(triples)
   return triples
 print(squares)
-triples() = triples
+triples = triples ()
 for i in range(len(triples)):
   if i % 3 == 0:
     if triples[i] + triples[i-1] + triples[i-2] == 1000:
