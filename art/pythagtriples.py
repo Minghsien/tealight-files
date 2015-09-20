@@ -19,6 +19,7 @@ def triples():
         print(triples[i-2])
         print(triples[i-1])
         print(triples[i])
+triples()
 
 
 
