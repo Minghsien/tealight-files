@@ -12,7 +12,8 @@ def triples():
         triples.append(j)
         triples.append(i+j)
   print(triples)
-triples()
+  return triples
+triples = triples()
 
 
 def triplecheck(triples):
@@ -21,12 +22,13 @@ def triplecheck(triples):
       print(triples[i-2])
       print(triples[i-1])
       print(triples[i])
-      if triples[i] + triples[i-1] + triples[i-2] == 10:
-        print(triples[i-2])
-        print(triples[i-1])
-        print(triples[i])
+      if math.sqrt(triples[i]) + math.sqrt(triples[i-1]) + math.sqrt(triples[i-2]) == 1000:
+        print(math.sqrt(triples[i-2]))
+        print(math.sqrt(triples[i-1]))
+        print(math.sqrt(triples[i]))
 
-  
+
+triplecheck(triples)  
   
 
   
