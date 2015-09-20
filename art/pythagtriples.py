@@ -1,4 +1,4 @@
-from math import *
+import math
 
 squares = []
 for i in range(1,100):
