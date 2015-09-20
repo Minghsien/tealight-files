@@ -25,7 +25,7 @@ def triplecheck(triples):
         print(math.sqrt(triples[i]))
 
 
-#triplecheck(triples)  
+triplecheck(triples)  
   
 
   
