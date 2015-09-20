@@ -1,9 +1,9 @@
 squares = []
-for i in range(100):
+for i in range(1,100):
   squares.append(i**2)
 def triples():
   triples = []
-  for i in range(len(squares)):
+  for i in range(1,len(squares)):
     for each in squares:
       if i+each in squares:
         triples.append(i)
