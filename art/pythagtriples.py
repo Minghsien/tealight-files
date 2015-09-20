@@ -8,9 +8,7 @@ def triples():
   for i in squares:
     for j in squares:
       if i+j in squares:
-        triples.append(i)
-        triples.append(j)
-        triples.append(i+j)
+        triples.append([i,j,i+j])
   print(triples)
   return triples
 triples = triples()
@@ -25,7 +23,7 @@ def triplecheck(triples):
         print(math.sqrt(triples[i]))
 
 
-triplecheck(triples)  
+#triplecheck(triples)  
   
 
   
