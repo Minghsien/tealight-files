@@ -16,5 +16,5 @@ def numbercheck(num, n):
   print(num)
   
   
-numbercheck(2520,10)
+numbercheck(2520,20)
 
