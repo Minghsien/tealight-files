@@ -17,7 +17,7 @@ for each in triples:
   abc.append([math.sqrt(each[0]),math.sqrt(each[1]),math.sqrt(each[2])])
 print abc
 for each in abc:
-  if sum(each) == 1000:
+  if each[0]+each[1]+each[2] == 1000:
     print each
 def triplecheck(triples):
   for each in triples:
